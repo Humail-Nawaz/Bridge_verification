@@ -1,75 +1,44 @@
-# Vivado project files
-*.jou
-*.log
-*.str
-*.backup.jou
-*.backup.log
-*.webtalk
-*.wdb
-*.xml
-*.xpr
-*.xpr.cache/
-*.Xil/
+# Ignore build/generated files and folders
 *.runs/
-*.sim/
-*.hw/
-*.ip_user_files/
 *.cache/
-*.srcs/
-*.vivado/
-*.xsim/
-*.ltx
-*.vcd
-*.wcfg
-*.dmp
-
-# Simulation outputs
-xsim/
-isim/
-simv*
-*.vcd
-*.wlf
-*.xsim
-*.ucdb
+*.hw/
+*.log
+*.jou
+sim_1/
+*.wdb
+*.str
+*.html
+*.xml
 *.pb
-*.key
-*.svf
-*.ncf
-*.sdf
-*.mrp
-*.prj
-
-# Vivado specific directories
-.project
-.sdk/
-.hw/
-.hwdef
-.runs/
-.ip_user_files/
-.sim/
-.srcs/
-.xpr
-.xsd
-.gen/
-.idea/
-
-# User-specific and system files
-*.swp
-*~
-*.DS_Store
-Thumbs.db
-*.vscode/
-*.bak
-*.tmp
-
-# OneDrive conflict files
-*Conflict*
-
-# Optional: if you want to exclude testbenches and build outputs
-# remove or customize as needed
-*.vvp
-*.out
+*.pb.bak
+*.pb_upr
+*.pb_cdc
+*.pb_ct
+*.ltx
 *.bin
-*.elf
-*.hex
+*.bgn
+*.qpf
+*.qsf
+*.sdc
+*.xml
+*.xpr.backup
+*.data
+*.hwdef
+*.backup
+ip_user_files/
+ip_repo/
 
+# Ignore OS files
+.DS_Store
+Thumbs.db
+
+# Do NOT ignore source files - track all design sources including new files
+!AXI2WB_bridge\ test.srcs/
+!AXI2WB_bridge\ test.srcs/sources_1/
+!AXI2WB_bridge\ test.srcs/sources_1/new/
+!AXI2WB_bridge\ test.srcs/sources_1/new/**
+
+# Optionally, explicitly track Verilog and constraint files globally
+!*.v
+!*.sv
+!*.xdc
