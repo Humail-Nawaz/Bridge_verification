@@ -1,0 +1,19 @@
+srcscan starts
+INFO: analyzing module BRIDGE_TOP (VERI-9002)
+INFO: analyzing module Top (VERI-9002)
+INFO: analyzing module axi_slave_ip (VERI-9002)
+INFO: analyzing module complete_bridge (VERI-9002)
+INFO: analyzing module wb2axi_top (VERI-9002)
+INFO: analyzing module wb_dummy_master_ip (VERI-9002)
+INFO: analyzing module wb_slave_dummy (VERI-9002)
+Listing tops:
+VeriTop library:xil_defaultlib mod:BRIDGE_TOP
+VeriTop library:xil_defaultlib mod:Top
+VeriTop library:xil_defaultlib mod:wb2axi_top
+VeriTop library:xil_defaultlib mod:wb_dummy_master_ip
+END of tops
+C:/Users/DELL/OneDrive/Desktop/FYP/TESTING/Complete_bridge_testing/AXI2WB_bridge test.srcs/sources_1/new/BRIDGE_TOP.v(4): INFO: compiling module 'BRIDGE_TOP_default' (VERI-1018)
+C:/Users/DELL/OneDrive/Desktop/FYP/TESTING/Complete_bridge_testing/AXI2WB_bridge test.srcs/sources_1/new/Top.v(2): INFO: compiling module 'Top_default' (VERI-1018)
+C:/Users/DELL/OneDrive/Desktop/FYP/TESTING/Complete_bridge_testing/AXI2WB_bridge test.srcs/sources_1/new/wb2axi_top.v(3): INFO: compiling module 'wb2axi_top_default' (VERI-1018)
+C:/Users/DELL/OneDrive/Desktop/FYP/TESTING/Complete_bridge_testing/AXI2WB_bridge test.srcs/sources_1/new/wb_dummy_master_ip.v(6): INFO: compiling module 'wb_dummy_master_ip_default' (VERI-1018)
+srcscan exits with return value 0

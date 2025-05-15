@@ -1,0 +1,36 @@
+#-----------------------------------------------------------
+# Vivado v2022.2 (64-bit)
+# SW Build 3671981 on Fri Oct 14 05:00:03 MDT 2022
+# IP Build 3669848 on Fri Oct 14 08:30:02 MDT 2022
+# Start of session at: Wed May 14 10:28:53 2025
+# Process ID: 13876
+# Current directory: C:/Users/DELL/OneDrive/Desktop/FYP/TESTING/Complete_bridge_testing
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent8856 C:\Users\DELL\OneDrive\Desktop\FYP\TESTING\Complete_bridge_testing\AXI2WB_bridge test.xpr
+# Log file: C:/Users/DELL/OneDrive/Desktop/FYP/TESTING/Complete_bridge_testing/vivado.log
+# Journal file: C:/Users/DELL/OneDrive/Desktop/FYP/TESTING/Complete_bridge_testing\vivado.jou
+# Running On: DESKTOP-J0OTQA0, OS: Windows, CPU Frequency: 2295 MHz, CPU Physical cores: 2, Host memory: 17065 MB
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/DELL/OneDrive/Desktop/FYP/TESTING/Complete_bridge_testing/AXI2WB_bridge test.xpr}
+update_compile_order -fileset sources_1
+synth_design -rtl -rtl_skip_mlo -name rtl_1
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+close [ open {C:/Users/DELL/OneDrive/Desktop/FYP/TESTING/Complete_bridge_testing/AXI2WB_bridge test.srcs/sim_1/new/cmplt_top_tb.v} w ]
+add_files -fileset sim_1 {{C:/Users/DELL/OneDrive/Desktop/FYP/TESTING/Complete_bridge_testing/AXI2WB_bridge test.srcs/sim_1/new/cmplt_top_tb.v}}
+update_compile_order -fileset sim_1
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top cmplt_top_tb [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sim_1
+launch_simulation
+launch_simulation
+source cmplt_top_tb.tcl
+close_sim
+launch_simulation
+source cmplt_top_tb.tcl
+current_wave_config {}
+add_wave {{/cmplt_top_tb/uut/bridge_inst}} 
+restart

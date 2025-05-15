@@ -1,0 +1,385 @@
+#-----------------------------------------------------------
+# Vivado v2022.2 (64-bit)
+# SW Build 3671981 on Fri Oct 14 05:00:03 MDT 2022
+# IP Build 3669848 on Fri Oct 14 08:30:02 MDT 2022
+# Start of session at: Wed May 14 10:28:53 2025
+# Process ID: 13876
+# Current directory: C:/Users/DELL/OneDrive/Desktop/FYP/TESTING/Complete_bridge_testing
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent8856 C:\Users\DELL\OneDrive\Desktop\FYP\TESTING\Complete_bridge_testing\AXI2WB_bridge test.xpr
+# Log file: C:/Users/DELL/OneDrive/Desktop/FYP/TESTING/Complete_bridge_testing/vivado.log
+# Journal file: C:/Users/DELL/OneDrive/Desktop/FYP/TESTING/Complete_bridge_testing\vivado.jou
+# Running On: DESKTOP-J0OTQA0, OS: Windows, CPU Frequency: 2295 MHz, CPU Physical cores: 2, Host memory: 17065 MB
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/DELL/OneDrive/Desktop/FYP/TESTING/Complete_bridge_testing/AXI2WB_bridge test.xpr}
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:arty-z7-10:part0:1.1 available at C:/Xilinx/Vivado/2022.2/data/boards/board_files/arty-z7-10/A.0/board.xml as part xc7z010clg400-1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:arty-z7-20:part0:1.1 available at C:/Xilinx/Vivado/2022.2/data/boards/board_files/arty-z7-20/A.0/board.xml as part xc7z020clg400-1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:cora-z7-07s:part0:1.1 available at C:/Xilinx/Vivado/2022.2/data/boards/board_files/cora-z7-07s/B.0/board.xml as part xc7z007sclg400-1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:cora-z7-10:part0:1.1 available at C:/Xilinx/Vivado/2022.2/data/boards/board_files/cora-z7-10/B.0/board.xml as part xc7z010clg400-1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:eclypse-z7:part0:1.0 available at C:/Xilinx/Vivado/2022.2/data/boards/board_files/eclypse-z7/A.0/board.xml as part xc7z020clg484-1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:eclypse-z7:part0:1.1 available at C:/Xilinx/Vivado/2022.2/data/boards/board_files/eclypse-z7/B.0/board.xml as part xc7z020clg484-1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:gzu_3eg:part0:1.0 available at C:/Xilinx/Vivado/2022.2/data/boards/board_files/genesys-zu-3eg/B.0/board.xml as part xczu3eg-sfvc784-1-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:gzu_3eg:part0:1.1 available at C:/Xilinx/Vivado/2022.2/data/boards/board_files/genesys-zu-3eg/D.0/board.xml as part xczu3eg-sfvc784-1-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:gzu_5ev:part0:1.1 available at C:/Xilinx/Vivado/2022.2/data/boards/board_files/genesys-zu-5ev/C.0/board.xml as part xczu5ev-sfvc784-1-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:zedboard:part0:1.1 available at C:/Xilinx/Vivado/2022.2/data/boards/board_files/zedboard/1.3/board.xml as part xc7z020clg484-1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:zybo-z7-10:part0:1.2 available at C:/Xilinx/Vivado/2022.2/data/boards/board_files/zybo-z7-10/A.0/board.xml as part xc7z010clg400-1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:zybo-z7-20:part0:1.2 available at C:/Xilinx/Vivado/2022.2/data/boards/board_files/zybo-z7-20/A.0/board.xml as part xc7z020clg400-1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:zybo:part0:1.0 available at C:/Xilinx/Vivado/2022.2/data/boards/board_files/zybo/B.3/board.xml as part xc7z010clg400-1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:zybo:part0:2.0 available at C:/Xilinx/Vivado/2022.2/data/boards/board_files/zybo/B.4/board.xml as part xc7z010clg400-1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu105:part0:1.6 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu105/1.6/board.xml as part xcku040-ffva1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu105:part0:1.7 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu105/1.7/board.xml as part xcku040-ffva1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu116:part0:1.4 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu116/1.4/board.xml as part xcku5p-ffvb676-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu116:part0:1.5 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu116/1.5/board.xml as part xcku5p-ffvb676-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu1500:part0:1.2 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu1500/1.2/board.xml as part xcku115-flvb2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:2.2 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/2.2/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.0/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.1 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.1/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190_newl:part0:1.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190_newl/production/1.0/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu108:part0:1.6 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu108/1.6/board.xml as part xcvu095-ffva2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu108:part0:1.7 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu108/1.7/board.xml as part xcvu095-ffva2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu110:part0:1.4 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu110/1.4/board.xml as part xcvu190-flgc2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.0/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.3 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.3/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.4 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.4/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu128:part0:1.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu128/production/1.0/board.xml as part xcvu37p-fsvh2892-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu129:part0:1.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu129/production/1.0/board.xml as part xcvu29p-fsga2577-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu1525:part0:1.3 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu1525/1.3/board.xml as part xcvu9p-fsgd2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/1.0/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vermeo_t1_mpsoc:part0:1.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vermeo_t1_mpsoc/1.0/board.xml as part xczu19eg-ffvd1760-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vermeo_t1_rfsoc:part0:1.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vermeo_t1_rfsoc/1.0/board.xml as part xczu21dr-ffvd1156-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158_es:part0:1.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/es/1.0/board.xml as part xcvh1582-vsva3697-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:2.2 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/2.2/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/3.0/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.1 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/3.1/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180_newl:part0:1.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180_newl/production/1.0/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120:part0:1.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/production/1.0/board.xml as part xcvp1202-vsva2785-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es:part0:1.2 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/es/1.2/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es_revb:part0:1.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120_revb/es/1.0/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180_es:part0:1.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk180/es/1.0/board.xml as part xcvp1802-lsvc4072-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zc702:part0:1.4 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zc702/1.4/board.xml as part xc7z020clg484-1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zc706:part0:1.4 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zc706/1.4/board.xml as part xc7z045ffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu102:part0:3.3 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu102/3.3/board.xml as part xczu9eg-ffvb1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu102:part0:3.4 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu102/3.4/board.xml as part xczu9eg-ffvb1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu104:part0:1.1 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu104/1.1/board.xml as part xczu7ev-ffvc1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu106:part0:2.4 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu106/2.4/board.xml as part xczu7ev-ffvc1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu106:part0:2.5 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu106/2.5/board.xml as part xczu7ev-ffvc1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu106:part0:2.6 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu106/2.6/board.xml as part xczu7ev-ffvc1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.2 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu111/1.2/board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.3 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu111/1.3/board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.4 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu111/1.4/board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu1275:part0:1.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu1275/1.0/board.xml as part xczu29dr-ffvf1760-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu1285:part0:1.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu1285/1.0/board.xml as part xczu39dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208:part0:2.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208/production/2.0/board.xml as part xczu48dr-fsvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208ld/production/2.0/board.xml as part xczu58dr-fsvg1517-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216:part0:2.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216/production/2.0/board.xml as part xczu49dr-ffvf1760-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/production/2.0/board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670:part0:2.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670/2.0/board.xml as part xczu67dr-fsve1156-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670ld:part0:1.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670ld/1.0/board.xml as part xczu57dr-fsve1156-2-i specified in board_part file is either invalid or not available
+WARNING: [filemgmt 56-3] IP Repository Path: Could not find the directory 'C:/Users/DELL/OneDrive/Desktop/FYP/TESTING/ip_repo/adder_bridge_1_0'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+WARNING: [IP_Flow 19-2248] Failed to load user IP repository 'c:/Users/DELL/OneDrive/Desktop/FYP/TESTING/ip_repo/adder_bridge_1_0'; Can't find the specified path.
+If this directory should no longer be in your list of user repositories, go to the IP Settings dialog and remove it.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2022.2/data/ip'.
+open_project: Time (s): cpu = 00:00:43 ; elapsed = 00:00:22 . Memory (MB): peak = 1134.035 ; gain = 384.617
+update_compile_order -fileset sources_1
+synth_design -rtl -rtl_skip_mlo -name rtl_1
+Command: synth_design -rtl -rtl_skip_mlo -name rtl_1
+Starting synth_design
+Using part: xc7vx485tffg1157-1
+Top: Cmplt_top
+INFO: [Device 21-403] Loading part xc7vx485tffg1157-1
+INFO: [Synth 8-11241] undeclared symbol 'REGCCE', assumed default net type 'wire' [C:/Xilinx/Vivado/2022.2/data/verilog/src/unimacro/BRAM_SINGLE_MACRO.v:2170]
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:09 ; elapsed = 00:00:09 . Memory (MB): peak = 2094.082 ; gain = 415.086
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'Cmplt_top' [C:/Users/DELL/OneDrive/Desktop/FYP/TESTING/Complete_bridge_testing/AXI2WB_bridge test.srcs/sources_1/new/Cmplt_top.v:2]
+INFO: [Synth 8-6157] synthesizing module 'complete_bridge' [C:/Users/DELL/OneDrive/Desktop/FYP/TESTING/Complete_bridge_testing/AXI2WB_bridge test.srcs/sources_1/imports/AXI_WISHBONE_BRIDGE/complete_bridge.v:2]
+	Parameter AW bound to: 12 - type: integer 
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/DELL/OneDrive/Desktop/FYP/TESTING/Complete_bridge_testing/AXI2WB_bridge test.srcs/sources_1/imports/AXI_WISHBONE_BRIDGE/complete_bridge.v:109]
+INFO: [Synth 8-6155] done synthesizing module 'complete_bridge' (0#1) [C:/Users/DELL/OneDrive/Desktop/FYP/TESTING/Complete_bridge_testing/AXI2WB_bridge test.srcs/sources_1/imports/AXI_WISHBONE_BRIDGE/complete_bridge.v:2]
+INFO: [Synth 8-6157] synthesizing module 'axi_slave_ip' [C:/Users/DELL/OneDrive/Desktop/FYP/TESTING/Complete_bridge_testing/AXI2WB_bridge test.srcs/sources_1/new/axi_master_dummy.v:4]
+	Parameter ADDR_WIDTH bound to: 12 - type: integer 
+	Parameter DATA_WIDTH bound to: 32 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'axi_slave_ip' (0#1) [C:/Users/DELL/OneDrive/Desktop/FYP/TESTING/Complete_bridge_testing/AXI2WB_bridge test.srcs/sources_1/new/axi_master_dummy.v:4]
+INFO: [Synth 8-6157] synthesizing module 'wb_slave_dummy' [C:/Users/DELL/OneDrive/Desktop/FYP/TESTING/Complete_bridge_testing/AXI2WB_bridge test.srcs/sources_1/new/wb_slave_dummy.v:4]
+INFO: [Synth 8-6155] done synthesizing module 'wb_slave_dummy' (0#1) [C:/Users/DELL/OneDrive/Desktop/FYP/TESTING/Complete_bridge_testing/AXI2WB_bridge test.srcs/sources_1/new/wb_slave_dummy.v:4]
+INFO: [Synth 8-6155] done synthesizing module 'Cmplt_top' (0#1) [C:/Users/DELL/OneDrive/Desktop/FYP/TESTING/Complete_bridge_testing/AXI2WB_bridge test.srcs/sources_1/new/Cmplt_top.v:2]
+WARNING: [Synth 8-7129] Port rst in module wb_slave_dummy is either unconnected or has no load
+WARNING: [Synth 8-7129] Port adr_i[31] in module wb_slave_dummy is either unconnected or has no load
+WARNING: [Synth 8-7129] Port adr_i[30] in module wb_slave_dummy is either unconnected or has no load
+WARNING: [Synth 8-7129] Port adr_i[29] in module wb_slave_dummy is either unconnected or has no load
+WARNING: [Synth 8-7129] Port adr_i[28] in module wb_slave_dummy is either unconnected or has no load
+WARNING: [Synth 8-7129] Port adr_i[27] in module wb_slave_dummy is either unconnected or has no load
+WARNING: [Synth 8-7129] Port adr_i[26] in module wb_slave_dummy is either unconnected or has no load
+WARNING: [Synth 8-7129] Port adr_i[25] in module wb_slave_dummy is either unconnected or has no load
+WARNING: [Synth 8-7129] Port adr_i[24] in module wb_slave_dummy is either unconnected or has no load
+WARNING: [Synth 8-7129] Port adr_i[23] in module wb_slave_dummy is either unconnected or has no load
+WARNING: [Synth 8-7129] Port adr_i[22] in module wb_slave_dummy is either unconnected or has no load
+WARNING: [Synth 8-7129] Port adr_i[21] in module wb_slave_dummy is either unconnected or has no load
+WARNING: [Synth 8-7129] Port adr_i[20] in module wb_slave_dummy is either unconnected or has no load
+WARNING: [Synth 8-7129] Port adr_i[19] in module wb_slave_dummy is either unconnected or has no load
+WARNING: [Synth 8-7129] Port adr_i[18] in module wb_slave_dummy is either unconnected or has no load
+WARNING: [Synth 8-7129] Port adr_i[17] in module wb_slave_dummy is either unconnected or has no load
+WARNING: [Synth 8-7129] Port adr_i[16] in module wb_slave_dummy is either unconnected or has no load
+WARNING: [Synth 8-7129] Port adr_i[15] in module wb_slave_dummy is either unconnected or has no load
+WARNING: [Synth 8-7129] Port adr_i[14] in module wb_slave_dummy is either unconnected or has no load
+WARNING: [Synth 8-7129] Port adr_i[13] in module wb_slave_dummy is either unconnected or has no load
+WARNING: [Synth 8-7129] Port adr_i[12] in module wb_slave_dummy is either unconnected or has no load
+WARNING: [Synth 8-7129] Port adr_i[11] in module wb_slave_dummy is either unconnected or has no load
+WARNING: [Synth 8-7129] Port adr_i[10] in module wb_slave_dummy is either unconnected or has no load
+WARNING: [Synth 8-7129] Port adr_i[1] in module wb_slave_dummy is either unconnected or has no load
+WARNING: [Synth 8-7129] Port adr_i[0] in module wb_slave_dummy is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sel_i[3] in module wb_slave_dummy is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sel_i[2] in module wb_slave_dummy is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sel_i[1] in module wb_slave_dummy is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sel_i[0] in module wb_slave_dummy is either unconnected or has no load
+WARNING: [Synth 8-7129] Port AWADDR[1] in module axi_slave_ip is either unconnected or has no load
+WARNING: [Synth 8-7129] Port AWADDR[0] in module axi_slave_ip is either unconnected or has no load
+WARNING: [Synth 8-7129] Port ARADDR[1] in module axi_slave_ip is either unconnected or has no load
+WARNING: [Synth 8-7129] Port ARADDR[0] in module axi_slave_ip is either unconnected or has no load
+WARNING: [Synth 8-7129] Port i_awaddr[1] in module complete_bridge is either unconnected or has no load
+WARNING: [Synth 8-7129] Port i_awaddr[0] in module complete_bridge is either unconnected or has no load
+WARNING: [Synth 8-7129] Port i_araddr[1] in module complete_bridge is either unconnected or has no load
+WARNING: [Synth 8-7129] Port i_araddr[0] in module complete_bridge is either unconnected or has no load
+WARNING: [Synth 8-7129] Port i_bmresp[1] in module complete_bridge is either unconnected or has no load
+WARNING: [Synth 8-7129] Port i_bmresp[0] in module complete_bridge is either unconnected or has no load
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:12 ; elapsed = 00:00:12 . Memory (MB): peak = 2172.992 ; gain = 493.996
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:12 ; elapsed = 00:00:12 . Memory (MB): peak = 2172.992 ; gain = 493.996
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:12 ; elapsed = 00:00:12 . Memory (MB): peak = 2172.992 ; gain = 493.996
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.021 . Memory (MB): peak = 2172.992 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 2270.340 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+RTL Elaboration Complete:  : Time (s): cpu = 00:00:34 ; elapsed = 00:00:22 . Memory (MB): peak = 2406.656 ; gain = 727.660
+13 Infos, 39 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:47 ; elapsed = 00:00:44 . Memory (MB): peak = 2406.656 ; gain = 1263.566
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+close [ open {C:/Users/DELL/OneDrive/Desktop/FYP/TESTING/Complete_bridge_testing/AXI2WB_bridge test.srcs/sim_1/new/cmplt_top_tb.v} w ]
+add_files -fileset sim_1 {{C:/Users/DELL/OneDrive/Desktop/FYP/TESTING/Complete_bridge_testing/AXI2WB_bridge test.srcs/sim_1/new/cmplt_top_tb.v}}
+update_compile_order -fileset sim_1
+set_property top cmplt_top_tb [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+update_compile_order -fileset sim_1
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'cmplt_top_tb'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+WARNING: [Vivado 12-13277] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/DELL/OneDrive/Desktop/FYP/TESTING/Complete_bridge_testing/AXI2WB_bridge test.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2022.2/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'cmplt_top_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/DELL/OneDrive/Desktop/FYP/TESTING/Complete_bridge_testing/AXI2WB_bridge test.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj cmplt_top_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/DELL/OneDrive/Desktop/FYP/TESTING/Complete_bridge_testing/AXI2WB_bridge test.srcs/sources_1/new/Cmplt_top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Cmplt_top
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/DELL/OneDrive/Desktop/FYP/TESTING/Complete_bridge_testing/AXI2WB_bridge test.srcs/sources_1/new/wb_slave_dummy.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module wb_slave_dummy
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/DELL/OneDrive/Desktop/FYP/TESTING/Complete_bridge_testing/AXI2WB_bridge test.srcs/sim_1/new/cmplt_top_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module cmplt_top_tb
+INFO: [USF-XSim-69] 'compile' step finished in '4' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/DELL/OneDrive/Desktop/FYP/TESTING/Complete_bridge_testing/AXI2WB_bridge test.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot cmplt_top_tb_behav xil_defaultlib.cmplt_top_tb xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2022.2
+Copyright 1986-1999, 2001-2022 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2022.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot cmplt_top_tb_behav xil_defaultlib.cmplt_top_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+ERROR: [VRFC 10-2989] 'axi_bresp' is not declared [C:/Users/DELL/OneDrive/Desktop/FYP/TESTING/Complete_bridge_testing/AXI2WB_bridge test.srcs/sim_1/new/cmplt_top_tb.v:118]
+ERROR: [VRFC 10-2989] 'axi_wdata' is not declared [C:/Users/DELL/OneDrive/Desktop/FYP/TESTING/Complete_bridge_testing/AXI2WB_bridge test.srcs/sim_1/new/cmplt_top_tb.v:119]
+ERROR: [VRFC 10-2989] 'axi_rdata' is not declared [C:/Users/DELL/OneDrive/Desktop/FYP/TESTING/Complete_bridge_testing/AXI2WB_bridge test.srcs/sim_1/new/cmplt_top_tb.v:139]
+ERROR: [XSIM 43-3322] Static elaboration of top level Verilog design unit(s) in library work failed.
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+INFO: [USF-XSim-99] Step results log file:'C:/Users/DELL/OneDrive/Desktop/FYP/TESTING/Complete_bridge_testing/AXI2WB_bridge test.sim/sim_1/behav/xsim/elaborate.log'
+ERROR: [USF-XSim-62] 'elaborate' step failed with error(s). Please check the Tcl console output or 'C:/Users/DELL/OneDrive/Desktop/FYP/TESTING/Complete_bridge_testing/AXI2WB_bridge test.sim/sim_1/behav/xsim/elaborate.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:08 . Memory (MB): peak = 2408.184 ; gain = 0.000
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'cmplt_top_tb'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+WARNING: [Vivado 12-13277] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/DELL/OneDrive/Desktop/FYP/TESTING/Complete_bridge_testing/AXI2WB_bridge test.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2022.2/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'cmplt_top_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/DELL/OneDrive/Desktop/FYP/TESTING/Complete_bridge_testing/AXI2WB_bridge test.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj cmplt_top_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/DELL/OneDrive/Desktop/FYP/TESTING/Complete_bridge_testing/AXI2WB_bridge test.srcs/sources_1/new/Cmplt_top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Cmplt_top
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/DELL/OneDrive/Desktop/FYP/TESTING/Complete_bridge_testing/AXI2WB_bridge test.srcs/sources_1/new/axi_master_dummy.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module axi_slave_ip
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/DELL/OneDrive/Desktop/FYP/TESTING/Complete_bridge_testing/AXI2WB_bridge test.srcs/sources_1/imports/AXI_WISHBONE_BRIDGE/complete_bridge.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module complete_bridge
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/DELL/OneDrive/Desktop/FYP/TESTING/Complete_bridge_testing/AXI2WB_bridge test.srcs/sources_1/new/wb_slave_dummy.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module wb_slave_dummy
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/DELL/OneDrive/Desktop/FYP/TESTING/Complete_bridge_testing/AXI2WB_bridge test.srcs/sim_1/new/cmplt_top_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module cmplt_top_tb
+INFO: [USF-XSim-69] 'compile' step finished in '3' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/DELL/OneDrive/Desktop/FYP/TESTING/Complete_bridge_testing/AXI2WB_bridge test.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot cmplt_top_tb_behav xil_defaultlib.cmplt_top_tb xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2022.2
+Copyright 1986-1999, 2001-2022 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2022.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot cmplt_top_tb_behav xil_defaultlib.cmplt_top_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-3091] actual bit length 10 differs from formal bit length 32 for port 'adr_i' [C:/Users/DELL/OneDrive/Desktop/FYP/TESTING/Complete_bridge_testing/AXI2WB_bridge test.srcs/sources_1/new/Cmplt_top.v:174]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.complete_bridge
+Compiling module xil_defaultlib.axi_slave_ip_default
+Compiling module xil_defaultlib.wb_slave_dummy
+Compiling module xil_defaultlib.Cmplt_top
+Compiling module xil_defaultlib.cmplt_top_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot cmplt_top_tb_behav
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:06 . Memory (MB): peak = 2416.086 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '6' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/DELL/OneDrive/Desktop/FYP/TESTING/Complete_bridge_testing/AXI2WB_bridge test.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "cmplt_top_tb_behav -key {Behavioral:sim_1:Functional:cmplt_top_tb} -tclbatch {cmplt_top_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source cmplt_top_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+Starting AXI write and read test...
+Data written without error
+Write response received: BRESP = 00
+DATA written: WDATA = 0xfadeface
+Data read correctly without error
+Read data received: RDATA = 0xfadeface, RRESP = 00
+AXI write and read test complete.
+$finish called at time : 305 ns : File "C:/Users/DELL/OneDrive/Desktop/FYP/TESTING/Complete_bridge_testing/AXI2WB_bridge test.srcs/sim_1/new/cmplt_top_tb.v" Line 145
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'cmplt_top_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:07 ; elapsed = 00:00:13 . Memory (MB): peak = 2433.676 ; gain = 17.590
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'cmplt_top_tb'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+WARNING: [Vivado 12-13277] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/DELL/OneDrive/Desktop/FYP/TESTING/Complete_bridge_testing/AXI2WB_bridge test.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2022.2/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'cmplt_top_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/DELL/OneDrive/Desktop/FYP/TESTING/Complete_bridge_testing/AXI2WB_bridge test.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj cmplt_top_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/DELL/OneDrive/Desktop/FYP/TESTING/Complete_bridge_testing/AXI2WB_bridge test.srcs/sources_1/new/Cmplt_top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Cmplt_top
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/DELL/OneDrive/Desktop/FYP/TESTING/Complete_bridge_testing/AXI2WB_bridge test.srcs/sources_1/new/axi_master_dummy.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module axi_slave_ip
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/DELL/OneDrive/Desktop/FYP/TESTING/Complete_bridge_testing/AXI2WB_bridge test.srcs/sources_1/imports/AXI_WISHBONE_BRIDGE/complete_bridge.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module complete_bridge
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/DELL/OneDrive/Desktop/FYP/TESTING/Complete_bridge_testing/AXI2WB_bridge test.srcs/sources_1/new/wb_slave_dummy.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module wb_slave_dummy
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/DELL/OneDrive/Desktop/FYP/TESTING/Complete_bridge_testing/AXI2WB_bridge test.srcs/sim_1/new/cmplt_top_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module cmplt_top_tb
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/DELL/OneDrive/Desktop/FYP/TESTING/Complete_bridge_testing/AXI2WB_bridge test.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot cmplt_top_tb_behav xil_defaultlib.cmplt_top_tb xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2022.2
+Copyright 1986-1999, 2001-2022 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2022.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot cmplt_top_tb_behav xil_defaultlib.cmplt_top_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-3091] actual bit length 10 differs from formal bit length 32 for port 'adr_i' [C:/Users/DELL/OneDrive/Desktop/FYP/TESTING/Complete_bridge_testing/AXI2WB_bridge test.srcs/sources_1/new/Cmplt_top.v:174]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.complete_bridge
+Compiling module xil_defaultlib.axi_slave_ip_default
+Compiling module xil_defaultlib.wb_slave_dummy
+Compiling module xil_defaultlib.Cmplt_top
+Compiling module xil_defaultlib.cmplt_top_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot cmplt_top_tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '4' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/DELL/OneDrive/Desktop/FYP/TESTING/Complete_bridge_testing/AXI2WB_bridge test.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "cmplt_top_tb_behav -key {Behavioral:sim_1:Functional:cmplt_top_tb} -tclbatch {cmplt_top_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source cmplt_top_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+Starting AXI write and read test...
+Data written without error
+Write response received: BRESP = 00
+DATA written: WDATA = 0xfadeface
+Data read correctly without error
+Read data received: RDATA = 0xfadeface, RRESP = 00
+AXI write and read test complete.
+==== Starting WB2AXI Transactions ====
+Successfully data written
+DATA WRITTEN TO AXI=0xfadeface
+Successfully data read
+DATA READ FROM AXI=0xfadeface
+==== Testbench Complete ====
+$finish called at time : 605 ns : File "C:/Users/DELL/OneDrive/Desktop/FYP/TESTING/Complete_bridge_testing/AXI2WB_bridge test.srcs/sim_1/new/cmplt_top_tb.v" Line 179
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'cmplt_top_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:05 ; elapsed = 00:00:09 . Memory (MB): peak = 2433.676 ; gain = 0.000
+current_wave_config {}
+WARNING: [Wavedata 42-16] Error Unable to get wave configuration ''.
+Untitled 2
+add_wave {{/cmplt_top_tb/uut/bridge_inst}} 
+restart
