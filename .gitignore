@@ -1,17 +1,26 @@
-# Vivado project generated files
+# Vivado project files
 *.jou
 *.log
 *.str
-*.cache
+*.backup.jou
+*.backup.log
 *.webtalk
-*.data
-*.tmp
-*.bak
-*.backup*
-*.Xil
 *.wdb
 *.xml
+*.xpr
+*.xpr.cache/
+*.Xil/
+*.runs/
+*.sim/
+*.hw/
+*.ip_user_files/
+*.cache/
+*.srcs/
+*.vivado/
+*.xsim/
 *.ltx
+*.vcd
+*.wcfg
 *.dmp
 
 # Simulation outputs
