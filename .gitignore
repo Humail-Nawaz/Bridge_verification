@@ -1,0 +1,66 @@
+# Vivado project generated files
+*.jou
+*.log
+*.str
+*.cache
+*.webtalk
+*.data
+*.tmp
+*.bak
+*.backup*
+*.Xil
+*.wdb
+*.xml
+*.ltx
+*.dmp
+
+# Simulation outputs
+xsim/
+isim/
+simv*
+*.vcd
+*.wlf
+*.xsim
+*.ucdb
+*.pb
+*.key
+*.svf
+*.ncf
+*.sdf
+*.mrp
+*.prj
+
+# Vivado specific directories
+.project
+.sdk/
+.hw/
+.hwdef
+.runs/
+.ip_user_files/
+.sim/
+.srcs/
+.xpr
+.xsd
+.gen/
+.idea/
+
+# User-specific and system files
+*.swp
+*~
+*.DS_Store
+Thumbs.db
+*.vscode/
+*.bak
+*.tmp
+
+# OneDrive conflict files
+*Conflict*
+
+# Optional: if you want to exclude testbenches and build outputs
+# remove or customize as needed
+*.vvp
+*.out
+*.bin
+*.elf
+*.hex
+
