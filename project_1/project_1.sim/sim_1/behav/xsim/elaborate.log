@@ -1,0 +1,14 @@
+Vivado Simulator v2022.2
+Copyright 1986-1999, 2001-2022 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2022.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot serving_bridge_top_tb_behav xil_defaultlib.serving_bridge_top_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-3091] actual bit length 10 differs from formal bit length 32 for port 'o_wb_adr' [C:/Users/DELL/OneDrive/Desktop/FYP/TESTING/Bridge_verification/project_1/project_1.srcs/sources_1/new/serving_bridge_top.v:93]
+WARNING: [VRFC 10-3091] actual bit length 8 differs from formal bit length 10 for port 'o_rf_waddr' [C:/Users/DELL/OneDrive/Desktop/FYP/TESTING/Bridge_verification/project_1/project_1.srcs/sources_1/imports/serv/serving/serving.v:327]
+WARNING: [VRFC 10-3091] actual bit length 8 differs from formal bit length 2 for port 'o_rf_wdata' [C:/Users/DELL/OneDrive/Desktop/FYP/TESTING/Bridge_verification/project_1/project_1.srcs/sources_1/imports/serv/serving/serving.v:328]
+WARNING: [VRFC 10-3091] actual bit length 8 differs from formal bit length 10 for port 'o_rf_raddr' [C:/Users/DELL/OneDrive/Desktop/FYP/TESTING/Bridge_verification/project_1/project_1.srcs/sources_1/imports/serv/serving/serving.v:330]
+WARNING: [VRFC 10-3091] actual bit length 8 differs from formal bit length 2 for port 'i_rf_rdata' [C:/Users/DELL/OneDrive/Desktop/FYP/TESTING/Bridge_verification/project_1/project_1.srcs/sources_1/imports/serv/serving/serving.v:332]
+WARNING: [VRFC 10-5021] port 'i_timer_irq' is not connected on this instance [C:/Users/DELL/OneDrive/Desktop/FYP/TESTING/Bridge_verification/project_1/project_1.srcs/sources_1/new/serving_bridge_top.v:87]
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel

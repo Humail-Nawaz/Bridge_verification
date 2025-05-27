@@ -1,0 +1,13 @@
+Time resolution is 1 ps
+Data written without error
+Write response received: BRESP = 00
+Data read correctly without error
+Read data received: RDATA = 0xdefacexx, RRESP = 00
+AXI write and read test complete.
+$finish called at time : 325 ns : File "C:/Users/DELL/OneDrive/Desktop/FYP/TESTING/Bridge_verification/project_1/project_1.srcs/sim_1/new/serving_bridge_top_tb.v" Line 164
+Data written without error
+Write response received: BRESP = 00
+Data read correctly without error
+Read data received: RDATA = 0xdefacexx, RRESP = 00
+AXI write and read test complete.
+$finish called at time : 325 ns : File "C:/Users/DELL/OneDrive/Desktop/FYP/TESTING/Bridge_verification/project_1/project_1.srcs/sim_1/new/serving_bridge_top_tb.v" Line 164

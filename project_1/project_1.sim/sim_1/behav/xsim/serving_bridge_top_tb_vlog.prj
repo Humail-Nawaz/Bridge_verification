@@ -1,0 +1,32 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  --include "../../../../project_1.srcs/sources_1/new" \
+"../../../../project_1.srcs/sources_1/new/complete_bridge.v" \
+"../../../../project_1.srcs/sources_1/imports/serv/rtl/serv_aligner.v" \
+"../../../../project_1.srcs/sources_1/imports/serv/rtl/serv_alu.v" \
+"../../../../project_1.srcs/sources_1/imports/serv/rtl/serv_bufreg.v" \
+"../../../../project_1.srcs/sources_1/imports/serv/rtl/serv_bufreg2.v" \
+"../../../../project_1.srcs/sources_1/imports/serv/rtl/serv_compdec.v" \
+"../../../../project_1.srcs/sources_1/imports/serv/rtl/serv_csr.v" \
+"../../../../project_1.srcs/sources_1/imports/serv/rtl/serv_ctrl.v" \
+"../../../../project_1.srcs/sources_1/imports/serv/rtl/serv_debug.v" \
+"../../../../project_1.srcs/sources_1/imports/serv/rtl/serv_decode.v" \
+"../../../../project_1.srcs/sources_1/imports/serv/rtl/serv_immdec.v" \
+"../../../../project_1.srcs/sources_1/imports/serv/rtl/serv_mem_if.v" \
+"../../../../project_1.srcs/sources_1/imports/serv/rtl/serv_rf_if.v" \
+"../../../../project_1.srcs/sources_1/imports/serv/rtl/serv_rf_ram_if.v" \
+"../../../../project_1.srcs/sources_1/imports/serv/rtl/serv_state.v" \
+"../../../../project_1.srcs/sources_1/imports/serv/rtl/serv_top.v" \
+"../../../../project_1.srcs/sources_1/imports/serv/servile/servile.v" \
+"../../../../project_1.srcs/sources_1/imports/serv/servile/servile_arbiter.v" \
+"../../../../project_1.srcs/sources_1/imports/serv/servile/servile_mux.v" \
+"../../../../project_1.srcs/sources_1/imports/serv/servile/servile_rf_mem_if.v" \
+"../../../../project_1.srcs/sources_1/imports/serv/serving/serving.v" \
+"../../../../project_1.srcs/sources_1/new/serving_bridge_top.v" \
+"../../../../project_1.srcs/sources_1/imports/serv/serving/serving_ram.v" \
+"../../../../project_1.srcs/sim_1/new/serving_bridge_top_tb.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
