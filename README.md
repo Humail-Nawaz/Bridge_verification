@@ -49,9 +49,8 @@ Use Vivado GUI or TCL scripts to synthesize the design and generate the bitstrea
 
 Feel free to fork this repository, make improvements, and submit pull requests.
 
-## License
 
-Specify your license here (e.g., MIT, GPL, etc.)
+
 
 
 
