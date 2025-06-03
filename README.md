@@ -55,5 +55,5 @@ Specify your license here (e.g., MIT, GPL, etc.)
 
 
 
-If you want me to generate a markdown file with this content or customize it further, just say the word!
+
 
